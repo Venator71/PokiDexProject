@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #0716f0,red,yellow ,white,white,yellow,#f10202,blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+  background-color: #3d7dca;
+  border: 5px solid #003a70;
+  color: #ffcb05;
+  padding: 10px;
+  border-radius: 25px;
+  letter-spacing: 5px;
+}
+
+/* Styles for Pokemon cards created in the JS file */
+
+#container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pokemon {
+  background-color: #3d7dca;
+  border: 5px solid #003a70;
+  width: 175px;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+
+h2 {
+  background-color: #3d7dca;
+  border: 5px solid #003a70;
+  color: #ffcb05;
+  font-size: 40px;
+  padding: 10px;
+  border-radius: 20px;
+  letter-spacing: 5px;
+}
+
+.img-container {
+  background-color: #003a70;
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  color: #003a70;
+  margin-bottom: 0;
+}
+
+.footer {
+margin: 20px;
+  font-size: 30px;
+  color: #3d7dca;
+}
+i {
+  padding: 5px;
+}
+#github {
+  color: black;
+}
+#linkedin {
+  color: #0077b5;
+}
+#twitter {
+  color: #1da1f2;
+}
+
+#facebook {
+  color: #4267b2;
+}
